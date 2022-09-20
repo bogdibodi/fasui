@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.top{
+    flex-direction: row;
+    margin : 0;
+    flex : 1;
+    background-color: #1F2937;
+}
+
