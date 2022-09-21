@@ -1,7 +1,16 @@
+* {
+    
+    box-sizing:  border-box;
+    margin : 0;
+    padding : 0;
+    
+    
+
+}
 html{
     font-family: sans-serif;
 }
-
+/* HEADER SECTION*/
 .header{
     display : flex;
     background-color: #1F2937;
@@ -11,7 +20,6 @@ html{
     justify-content: space-between;
     padding: 30px 10%;
 }
-
 .headerLink{
     display : flex;
     flex-direction: row;
@@ -19,16 +27,57 @@ html{
     font-size: 18px;
     color : #E5E7Eb;
 }
-
 .headerLogo{
     font-size: 24px;
     color : #F9FAF8;
 }
-
-* {
+/* SECTION TWO */
+.sectionTwo{
+    display : flex;
+    height : 450px;
+    background-color: #1F2937;
+    color : white;
+    justify-content: center;
+    align-items: center;
+    gap : 30px;
     
-    box-sizing:  border-box;
-    margin : 0;
-    padding : 0;
+
+}
+.leftBox{
+    display : flex;
+    flex : 0.3;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px 30px;
+}
+.rightBox{
+    display : flex;
+    flex : 0.5;
+    height : 250px;
+    background-color: gray;
+    align-items: center;
+    justify-content: center;
+
     
 }
+#heroTitle{
+    font-size : 48px;
+    color : #F9FAF8;
+    font-weight: bolder ;
+}
+#heroDesc{
+    font-size : 18px;
+    color : #E5E7EB;
+    
+}
+button{
+    background-color: #3882F6;
+    color : #E5E7EB;
+    height : 30px;
+    width : 120px;
+    border-radius: 10px;
+    border : none;
+    font-weight: bolder;
+    font-size : 14px;
+}
+
