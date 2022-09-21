@@ -4,6 +4,8 @@
     box-sizing:  border-box;
     margin : 0;
     padding : 0;
+    
+    
 }
 html{
     font-family: Roboto , sans-serif;
@@ -37,7 +39,7 @@ html{
     color : white;
     justify-content: center;
     align-items: center;
-    gap : 30px;
+    gap : 30px 30px;
     
 
 }
@@ -78,4 +80,44 @@ button{
     font-weight: bolder;
     font-size : 14px;
 }
-
+/* SECTION THREE */
+.sectionThree{
+    display : flex;
+    height : 450px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap : 20px 10px;
+    
+}
+.top{
+    display: flex;
+    flex : 0.2;
+    align-items: center;
+    
+}
+#titleText{
+    font-size: 36px;
+    font-weight: bolder;
+    color : #1F2937;
+}
+.bottom{
+    display : flex;
+    flex : 1;
+    flex-direction: row;
+    gap : 10px 50px;
+}
+.illustration{
+    display : flex;
+    align-items: center;
+    flex-direction: column;
+}
+.text{
+    width : 150px;
+}
+.box{
+    height : 150px;
+    width : 150px;
+    border : 5px solid #3882F6; 
+    border-radius: 15px;
+}
