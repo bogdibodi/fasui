@@ -1,3 +1,0 @@
-# fasui
-
-Assignment from TheOdinProject.
